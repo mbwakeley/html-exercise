@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="the-heading-one">Log In </h1>
+
+    <form id="login-form" onsubmit="submitMethod()">
+        <p>
+            <label for="email">
+                Email
+                <input id="email-field" type="text">
+            </label>
+        </p>
+        <p>
+            <label for="password">
+                Password
+                <input id="password-field" type="password">
+            </label>
+        </p>
+        <p>
+            <label for="github">
+                Github Username
+                <input id="username-field" type="text">
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="package" value="Enterprise"> Enterprise<br>
+                <input type="radio" name="package" value="Pro"> Pro<br>
+                <input type="radio" name="package" value="Free"> Free<br>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </p>
+
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
